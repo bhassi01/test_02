@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="tests.TestCases">
+        <methods>
+          <include name="errormsg_empty_email_reset_password_page"/>
+          <include name="join_github_page"/>
+          <include name="errormsg_reset_password_page"/>
+          <include name="click_on_sign_in"/>
+          <include name="first_word_err_msg"/>
+          <include name="openBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="text_join_page"/>
+          <include name="mandate_field_login_page"/>
+          <include name="click_on_sign_up"/>
+        </methods>
+      </class> <!-- tests.TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

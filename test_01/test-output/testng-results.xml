@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Opening Chrome instance]]>
+    </line>
+    <line>
+      <![CDATA[Current URL is https://github.com/login]]>
+    </line>
+    <line>
+      <![CDATA[User is successfully directed to Join Github Page]]>
+    </line>
+    <line>
+      <![CDATA[Login Alert is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Login Alert is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Page contains text - 'Can't find that email, sorry.']]>
+    </line>
+    <line>
+      <![CDATA[Alert text starts with 'Can't']]>
+    </line>
+    <line>
+      <![CDATA[Sign Up button is grayed out on using existing e-mail]]>
+    </line>
+    <line>
+      <![CDATA[Login Alert is displayed]]>
+    </line>
+    <line>
+      <![CDATA[Page contains text - 'Incorrect username or password']]>
+    </line>
+    <line>
+      <![CDATA[Page contains text - 'Create your personal account']]>
+    </line>
+    <line>
+      <![CDATA[Closing Chrome]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="159408" started-at="2019-07-08T10:12:03Z" finished-at="2019-07-08T10:14:42Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="159408" started-at="2019-07-08T10:12:03Z" finished-at="2019-07-08T10:14:42Z">
+      <class name="tests.TestCases">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:tests.TestCases@26653222]" name="openBrowser" is-config="true" duration-ms="71853" started-at="2019-07-08T10:12:03Z" finished-at="2019-07-08T10:13:15Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Opening Chrome instance]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="click_on_sign_in()[pri:0, instance:tests.TestCases@26653222]" name="click_on_sign_in" duration-ms="41369" started-at="2019-07-08T10:13:15Z" finished-at="2019-07-08T10:13:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Current URL is https://github.com/login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- click_on_sign_in -->
+        <test-method status="PASS" signature="click_on_sign_up()[pri:0, instance:tests.TestCases@26653222]" name="click_on_sign_up" duration-ms="22330" started-at="2019-07-08T10:13:56Z" finished-at="2019-07-08T10:14:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[User is successfully directed to Join Github Page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- click_on_sign_up -->
+        <test-method status="PASS" signature="errormsg_empty_email_reset_password_page()[pri:0, instance:tests.TestCases@26653222]" name="errormsg_empty_email_reset_password_page" duration-ms="2936" started-at="2019-07-08T10:14:18Z" finished-at="2019-07-08T10:14:21Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Alert is displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- errormsg_empty_email_reset_password_page -->
+        <test-method status="PASS" signature="errormsg_reset_password_page()[pri:0, instance:tests.TestCases@26653222]" name="errormsg_reset_password_page" duration-ms="3658" started-at="2019-07-08T10:14:21Z" finished-at="2019-07-08T10:14:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Alert is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Page contains text - 'Can't find that email, sorry.']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- errormsg_reset_password_page -->
+        <test-method status="PASS" signature="first_word_err_msg()[pri:0, instance:tests.TestCases@26653222]" name="first_word_err_msg" duration-ms="2506" started-at="2019-07-08T10:14:25Z" finished-at="2019-07-08T10:14:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Alert text starts with 'Can't']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- first_word_err_msg -->
+        <test-method status="PASS" signature="join_github_page()[pri:0, instance:tests.TestCases@26653222]" name="join_github_page" duration-ms="7227" started-at="2019-07-08T10:14:28Z" finished-at="2019-07-08T10:14:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Sign Up button is grayed out on using existing e-mail]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- join_github_page -->
+        <test-method status="PASS" signature="mandate_field_login_page()[pri:0, instance:tests.TestCases@26653222]" name="mandate_field_login_page" duration-ms="1848" started-at="2019-07-08T10:14:35Z" finished-at="2019-07-08T10:14:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Login Alert is displayed]]>
+            </line>
+            <line>
+              <![CDATA[Page contains text - 'Incorrect username or password']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mandate_field_login_page -->
+        <test-method status="PASS" signature="text_join_page()[pri:0, instance:tests.TestCases@26653222]" name="text_join_page" duration-ms="4240" started-at="2019-07-08T10:14:37Z" finished-at="2019-07-08T10:14:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Page contains text - 'Create your personal account']]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- text_join_page -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:tests.TestCases@26653222]" name="closeBrowser" is-config="true" duration-ms="1240" started-at="2019-07-08T10:14:41Z" finished-at="2019-07-08T10:14:42Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing Chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- tests.TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
