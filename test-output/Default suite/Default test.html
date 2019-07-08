@@ -1,0 +1,177 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jul 08 15:27:16 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>108 seconds (108454 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tests.TestCases.click_on_sign_in()'><b>click_on_sign_in</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-1826334428" onClick='toggleBox("Output-1826334428", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1826334428" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1826334428">
+Current URL is https://github.com/login<br/>
+</div>
+</td>
+<td></td>
+<td>20</td>
+<td>tests.TestCases@548a9f61</td></tr>
+<tr>
+<td title='tests.TestCases.click_on_sign_up()'><b>click_on_sign_up</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-171809144" onClick='toggleBox("Output-171809144", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-171809144" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-171809144">
+User is successfully directed to Join Github Page<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>tests.TestCases@548a9f61</td></tr>
+<tr>
+<td title='tests.TestCases.errormsg_empty_email_reset_password_page()'><b>errormsg_empty_email_reset_password_page</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-785306763" onClick='toggleBox("Output-785306763", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-785306763" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-785306763">
+Login Alert is displayed<br/>
+</div>
+</td>
+<td></td>
+<td>4</td>
+<td>tests.TestCases@548a9f61</td></tr>
+<tr>
+<td title='tests.TestCases.errormsg_reset_password_page()'><b>errormsg_reset_password_page</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-1059300256" onClick='toggleBox("Output-1059300256", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1059300256" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1059300256">
+Login Alert is displayed<br/>
+Page contains text - 'Can't find that email, sorry.'<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tests.TestCases@548a9f61</td></tr>
+<tr>
+<td title='tests.TestCases.first_word_err_msg()'><b>first_word_err_msg</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-1103505488" onClick='toggleBox("Output-1103505488", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1103505488" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1103505488">
+Alert text starts with 'Can't'<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>tests.TestCases@548a9f61</td></tr>
+<tr>
+<td title='tests.TestCases.join_github_page()'><b>join_github_page</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-836972194" onClick='toggleBox("Output-836972194", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-836972194" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-836972194">
+Sign Up button is grayed out on using existing e-mail<br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>tests.TestCases@548a9f61</td></tr>
+<tr>
+<td title='tests.TestCases.mandate_field_login_page()'><b>mandate_field_login_page</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-1986676021" onClick='toggleBox("Output-1986676021", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1986676021" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1986676021">
+Login Alert is displayed<br/>
+Page contains text - 'Incorrect username or password'<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>tests.TestCases@548a9f61</td></tr>
+<tr>
+<td title='tests.TestCases.text_join_page()'><b>text_join_page</b><br>Test class: tests.TestCases<br/>
+<a href="#Output-185639533" onClick='toggleBox("Output-185639533", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-185639533" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-185639533">
+Page contains text - 'Create your personal account'<br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>tests.TestCases@548a9f61</td></tr>
+</table><p>
+</body>
+</html>
